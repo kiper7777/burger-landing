@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   padding: 25px 0;
+
+  /* position: relative;
+  z-index: 10; */
 }
 
 .header .container {
@@ -93,6 +96,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome {
+  min-height: 100vh;
+
+  margin-top: -100px;
   padding: 240px 0;
 
   background-image: url("./images/welcome_bg.jpg");
