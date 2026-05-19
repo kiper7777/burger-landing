@@ -18,6 +18,11 @@ ul{
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 0;
+}  
+
 .container {
   max-width: 1140px;
   margin-left: auto;
@@ -80,6 +85,46 @@ ul{
 .header__nav a:hover {
   opacity: 0.9;
 }
+
+
+
+.main {
+
+}
+
+.welcome {
+  padding: 240px 0;
+
+  background-image: url("./images/welcome_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+
+}
+
+.welcome__text {
+  width: 550px;
+}
+
+.welcome__subtitle {
+  margin-bottom: 7px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.welcome__title {
+  font-size: 58px;
+}
+
+.welcome_desc {
+  margin: 40px 0;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
 
 
 
