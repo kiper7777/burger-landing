@@ -96,10 +96,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome {
+  box-sizing: border-box;
   min-height: 100vh;
 
   margin-top: -100px;
-  padding: 240px 0;
+  padding: 240px 0px;
 
   background-image: url("./images/welcome_bg.jpg");
   background-repeat: no-repeat;
@@ -108,7 +109,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-
+  width: 400px;
+  height: 550px;
 }
 
 .welcome__text {
@@ -129,6 +131,21 @@ img {
   margin: 40px 0;
   font-size: 18px;
   opacity: 0.7;
+}
+
+
+
+.food-list {
+}
+.container {
+}
+.food-list__card {
+}
+.food-list__img {
+}
+.food-list__title {
+}
+.food-list__desc {
 }
 
 
